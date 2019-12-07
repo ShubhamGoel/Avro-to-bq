@@ -1,10 +1,9 @@
 import apache_beam as beam
 import sys
 
-PROJECT='ornate-hour-261323'
-BUCKET='ornate-hour-261323'
+PROJECT='YOUR_PROJECT'
+BUCKET='YOUR_BUCKET'
 REGION='us-central1'
-SUBNETWORK='user-managed-01'
 
 def run():
    argv = [
